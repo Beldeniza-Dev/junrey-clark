@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Junrey Clark</title>
+  <style>
+    :root {
+      --blue: #0d4f7d;
+      --gold: #f4c542;
+      --white: #ffffff;
+      --dark: #1a2433;
+      --muted: #5d6b7a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #edf5ff 0%, #ffffff 100%);
+      color: var(--dark);
+      text-align: center;
+    }
+    .container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.9);
+      border-radius: 24px;
+      padding: 48px 32px;
+      box-shadow: 0 18px 50px rgba(13,79,125,0.12);
+      max-width: 720px;
+      width: 100%;
+    }
+    .tag {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--dark);
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      border-radius: 999px;
+      padding: 10px 16px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 6vw, 4.7rem);
+      line-height: 1.05;
+      color: var(--blue);
+    }
+    p {
+      font-size: 1.08rem;
+      color: var(--muted);
+      margin: 18px auto 0;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 28px;
+      background: var(--blue);
+      color: var(--white);
+      padding: 15px 28px;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 12px 28px rgba(13,79,125,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="tag">Junrey Clark</div>
+      <h1>Discover the Philippines</h1>
+      <p>Welcome to my updated personal page. The site has been refreshed to reflect the name Junrey Clark.</p>
+      <a class="btn" href="https://beldeniza-dev.github.io/discover-the-philippines/">Open the Philippines site</a>
+    </div>
+  </div>
+</body>
+</html>
